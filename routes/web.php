@@ -10,5 +10,8 @@ Route::get('/', function () {
 
 //Route::get('/patients', [PatientController::class, 'index']);
 
-//rutas con recursos (paquete de rutas) (GET, POST, PUT/PATCH, DELETE)
+//rutas con recursos (paquete de rutas) (GET, POST, PUT/PATCH, DELETE) (CRUD)
 Route::resource('/patients', PatientController::class);
+
+//ruta para el calendario
+//rutas filtros de reportes

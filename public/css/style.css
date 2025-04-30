@@ -5,3 +5,12 @@
     font-style: italic;
     text-align: center;
 }
+
+.navbar{
+    background-color: #294346 !important;
+}
+
+.btn-patient{
+    background-color: #468386;
+    color: #fff;
+}
