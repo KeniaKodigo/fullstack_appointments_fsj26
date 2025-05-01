@@ -13,7 +13,10 @@
                     <a class="nav-link" href="{{url('/patients')}}"><i class="bi bi-journal-check"></i> Pacientes</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link"><i class="bi bi-calendar3-week-fill"></i> Calendario de Citas</a>
+                    <a class="nav-link" href="{{url('/appointments/calendar')}}"><i class="bi bi-calendar3-week-fill"></i> Calendario de Citas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{url('/report/patients')}}" target="__blank"><i class="bi bi-calendar3-week-fill"></i> Reporte de Pacientes</a>
                 </li>
             </ul>
         </div>
